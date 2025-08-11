@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+venv/
+loq/
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage*
+htmlcov/
+
+# Logs and debug
+*.log
+logs/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archives and installers
+*.zip
+*.tar
+*.gz
+*.7z
+*.exe
+
+# Python tooling
+.mypy_cache/
+.pyre/
+pytestdebug.log
+
+# Project-specific sensitive data
+# Private keys and wallet data
+*privatekey*.py
+*privatekey*.json
+mainprivatekey*.json
+web3 (2) (1)/
+found_wallets_backup.txt
+found_wallets_optimized.json
+optimized_wallets_found.json
+wallets_with_balance.json
+wallet_scanner*.log
+multi_runner.log
+
+# Cache
+*.cache

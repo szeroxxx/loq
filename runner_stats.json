@@ -1,0 +1,12 @@
+{
+  "start_time": 1749106488.5218945,
+  "current_time": 1749106488.718218,
+  "uptime": 0.19632363319396973,
+  "running_processes": 0,
+  "process_stats": {},
+  "system_stats": {
+    "cpu_percent": 63.9,
+    "memory_percent": 79.0,
+    "disk_usage": 13.7
+  }
+}

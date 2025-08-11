@@ -1,0 +1,19 @@
+# Ignore files that shouldn't be included in the Docker build
+.git
+.gitignore
+README.md
+DEPLOYMENT_GUIDE.md
+*.log
+*.json
+*.txt
+__pycache__/
+loq/
+web3*/
+*.zip
+*.py
+!working.py
+!requirements.txt
+deploy.sh
+deploy.ps1
+setup.ps1
+k8s-deployment.yaml

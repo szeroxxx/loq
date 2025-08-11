@@ -1,0 +1,38 @@
+{
+  "runner_config": {
+    "max_workers": null,
+    "execution_mode": "process",
+    "validate_files": true,
+    "monitor_interval": 5,
+    "timeout_seconds": null,
+    "auto_restart": false
+  },
+  "file_patterns": [
+    "*.py",
+    "[0-9].py",
+    "[0-9][0-9].py"
+  ],
+  "excluded_files": [
+    "multi_runner.py",
+    "__pycache__",
+    "*.pyc",
+    "test_*.py"
+  ],
+  "directories": {
+    "base_directory": ".",
+    "log_directory": "./logs",
+    "output_directory": "./output"
+  },
+  "logging": {
+    "level": "INFO",
+    "log_file": "multi_runner.log",
+    "max_log_size_mb": 100,
+    "backup_count": 5
+  },
+  "performance": {
+    "memory_limit_mb": 1024,
+    "cpu_limit_percent": 80,
+    "enable_monitoring": true,
+    "stats_file": "runner_stats.json"
+  }
+}
